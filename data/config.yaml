@@ -1,0 +1,26 @@
+# Otterwiki configuration
+
+# Wiki name + tagline
+title: "GCB lab protocols and wiki"
+subtitle: "Knowledge for our small team"
+
+# Admin user (created on first run)
+# After initial setup, you can change users from the UI
+admin:
+  username: "admin"
+  email: "bheesters@gmail.com"
+  password: "germinalcenter"   # ❗ change this after first login!
+
+# Storage location (Render’s persistent disk)
+storage:
+  path: "/data"
+
+# Allow user registration?
+# false = only admin can invite/add users
+allow_registration: false
+
+# Default language
+language: "en"
+
+# Appearance
+theme: "default"
