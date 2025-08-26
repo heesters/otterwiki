@@ -6,7 +6,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy otterwiki source
-COPY . .
+COPY data/config.yaml /data/config.yaml
 
 # Use persistent storage for wiki data
 ENV OTTERWIKI_STORAGE_PATH=/data
